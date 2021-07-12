@@ -352,6 +352,17 @@ body {
 .box-about .box-text-about .box-management .div-management {
   width: 136px;
 }
+.box-about .box-text-about .div-btn .btn-style {
+  background-color: #f7b338;
+  border: none;
+  width: 170px;
+  height: 40px;
+  color: white;
+  transition: all 1s;
+}
+.box-about .box-text-about .div-btn .btn-style:hover {
+  background-color: #fc8600;
+}
 .box-about .box-img-about .img-about-1 {
   height: 200px;
 }

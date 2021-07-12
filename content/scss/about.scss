@@ -43,7 +43,19 @@
                     width: 136px;
                 }
             }
-            .div-btn {}
+            .div-btn {
+                .btn-style {
+                    background-color: #f7b338;
+                    border: none;
+                    width: 170px;
+                    height: 40px;
+                    color: white;
+                    transition: all 1s;
+                    &:hover {
+                        background-color: #fc8600;
+                    }
+                }
+            }
         }
         .box-img-about {
             .img-about-1 {
