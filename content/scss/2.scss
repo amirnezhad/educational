@@ -1,0 +1,55 @@
+.box-card {
+    margin-top: -42px;
+    position: absolute;
+    z-index: 2;
+    .card1 {
+        text-align: center;
+        position: relative;
+        height: 300px;
+        background-color: white;
+        box-shadow: 1px 1px 7px 0 #adaaaa;
+        &::after {
+            content: "";
+            position: absolute;
+            height: 50%;
+            width: 50%;
+            border-bottom: 2px solid #f37106;
+            border-right: 2px solid #f37106;
+            bottom: 0;
+            right: 0;
+        }
+    }
+    .card2 {
+        text-align: center;
+        height: 300px;
+        background-color: #1b1919;
+        box-shadow: 1px 1px 9px 0 #545252;
+        color: white;
+    }
+    .card3 {
+        text-align: center;
+        position: relative;
+        height: 300px;
+        background-color: white;
+        box-shadow: 1px 1px 7px 0 #adaaaa;
+        &::after {
+            content: "";
+            position: absolute;
+            height: 50%;
+            width: 50%;
+            border-bottom: 2px solid #f37106;
+            border-left: 2px solid #f37106;
+            bottom: 0;
+            left: 0;
+        }
+    }
+    .style-img-card {
+        color: #ff9e50;
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: space-around;
+    }
+}
