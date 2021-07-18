@@ -1,0 +1,118 @@
+.box-about {
+  width: 100%;
+  height: 747px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 8px 0 #888282;
+          box-shadow: 0 0 8px 0 #888282;
+}
+
+.box-about .box-text-about .div-p {
+  width: 200px;
+}
+
+.box-about .box-text-about .div-p .line {
+  border-top: 1px solid #f37106;
+  width: 20px;
+}
+
+.box-about .box-text-about .div-p .style-p {
+  color: #0c0b0b;
+  font-size: 14px;
+}
+
+.box-about .box-text-about .style-h {
+  width: 450px;
+}
+
+.box-about .box-text-about .style-h .style-custom {
+  color: #f37106;
+}
+
+.box-about .box-text-about .text-p {
+  width: 400px;
+  line-height: 1.5;
+}
+
+.box-about .box-text-about .box-services {
+  width: 379px;
+  height: 100px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 8px 0 #8e8686;
+          box-shadow: 0 0 8px 0 #8e8686;
+}
+
+.box-about .box-text-about .box-services .div-services {
+  width: 110px;
+}
+
+.box-about .box-text-about .box-management {
+  width: 379px;
+  height: 100px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 8px 0 #8e8686;
+          box-shadow: 0 0 8px 0 #8e8686;
+}
+
+.box-about .box-text-about .box-management .div-management {
+  width: 136px;
+}
+
+.box-about .box-text-about .div-btn .btn-style {
+  background-color: #f7b338;
+  border: none;
+  width: 170px;
+  height: 40px;
+  color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.box-about .box-text-about .div-btn .btn-style:hover {
+  background-color: #fc8600;
+}
+
+.box-about .box-img-about .img-about-1 {
+  height: 200px;
+}
+
+.box-about .box-img-about .box-white {
+  width: 326px;
+  height: 412px;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  bottom: 120px;
+}
+
+.box-about .box-img-about .img-about-2 {
+  height: 200px;
+  z-index: 1;
+  right: -30px;
+  top: 204px;
+}
+
+.box-nothing {
+  width: 100%;
+  height: 350px;
+  background-color: transparent;
+}
+
+.box-about {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  -webkit-box-shadow: 0 0 8px 0 #888282;
+          box-shadow: 0 0 8px 0 #888282;
+}
+
+.box-about .img-video {
+  width: 100%;
+  height: 500px;
+}
+
+.box-about .dive-choose .img-choose {
+  width: 40px;
+  height: 40px;
+}
+/*# sourceMappingURL=about.css.map */
