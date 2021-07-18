@@ -97,22 +97,4 @@
   height: 350px;
   background-color: transparent;
 }
-
-.box-about {
-  width: 100%;
-  height: auto;
-  background-color: white;
-  -webkit-box-shadow: 0 0 8px 0 #888282;
-          box-shadow: 0 0 8px 0 #888282;
-}
-
-.box-about .img-video {
-  width: 100%;
-  height: 500px;
-}
-
-.box-about .dive-choose .img-choose {
-  width: 40px;
-  height: 40px;
-}
 /*# sourceMappingURL=about.css.map */

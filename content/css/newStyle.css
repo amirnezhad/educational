@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "IRANSans";
+    src: url("../content/font/ttf/IRANSansWebFaNum.ttf"), url("../content/font/eot/IRANSansWebFaNum.eot"), url("../content/font/woff/IRANSansWebFaNum.woff"), url("../content/font/woff2/IRANSansWebFaNum.woff2");
+}
+
+body {
+    background-color: white;
+}
+
+
+/********************about************************** */
+
+
+/********************choose************************** */
+
+.box-choose {
+    width: 100%;
+    height: auto;
+    background-color: rgb(238, 236, 236);
+}
+
+.img-video {
+    width: 100%;
+    height: 480px;
+}
+
+.box-img-choose {}
+
+.dive-choose {}
+
+.img-choose {
+    width: 40px;
+    height: 40px;
+}
+
+.style-h {
+    width: 450px;
+}
+
+.style-custom {
+    color: #f37106;
+}
+
+.text-p {
+    width: 400px;
+    line-height: 1.5;
+}
+
+.div-p {
+    width: 200px;
+}
+
+.style-p {
+    color: #0c0b0b;
+    font-size: 14px;
+}
+
+.line {
+    border-top: 1px solid #f37106;
+    width: 20px;
+}
+
+.color {
+    color: #f37106;
+}
