@@ -10,4 +10,30 @@ $(document).ready(function() {
             clickable: true,
         },
     });
+
+    $("#btnradio1").click(function() {
+
+        $("#first-btn").show();
+        $("#second-btn").hide();
+        $("#third-btn").hide();
+
+    });
+    $("#btnradio2").click(function() {
+
+        $("#first-btn").hide();
+        $("#second-btn").show();
+        $("#third-btn").hide();
+
+    });
+    $("#btnradio3").click(function() {
+
+        $("#first-btn").hide();
+        $("#second-btn").hide();
+        $("#third-btn").show();
+
+    });
+
+
+
+
 });

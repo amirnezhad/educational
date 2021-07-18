@@ -63,3 +63,67 @@ body {
 .color {
     color: #f37106;
 }
+
+
+/**********************what do we do**************************/
+
+.box-txt-do {}
+
+.text-p-do {
+    width: 500px;
+    line-height: 1.5;
+}
+
+.box-btn {
+    border-bottom: 1px solid rgb(201, 200, 200);
+}
+
+.style-btn {
+    border: none;
+    outline: none;
+    width: 170px;
+    height: 45px;
+    background-color: transparent;
+}
+
+.w-style {
+    width: 94%;
+    height: 250px;
+}
+
+.div-img-do {
+    width: 545px;
+    height: 360px;
+}
+
+.img-do {
+    width: 100%;
+    height: 100%;
+}
+
+.div-btn {}
+
+.btn-style {
+    background-color: #f7b338;
+    border: none;
+    width: 170px;
+    height: 40px;
+    color: white;
+    transition: all 1s;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fafafb !important;
+    background-color: #f58d38 !important;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-link {
+    height: 45px;
+    display: block;
+    padding: .5rem 1rem;
+    color: #333435 !important;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
