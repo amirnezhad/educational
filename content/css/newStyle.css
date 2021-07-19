@@ -88,7 +88,8 @@ body {
 
 .w-style {
     width: 94%;
-    height: 250px;
+    height: 115px;
+    overflow: hidden;
 }
 
 .div-img-do {
@@ -163,4 +164,25 @@ body {
 .img-customers {
     width: 100%;
     height: 100%;
+}
+
+
+/*******************************services**************************/
+
+.w-style {
+    width: 94%;
+    height: 115px;
+    overflow: hidden;
+}
+
+.white-box {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 0 7px 0 gray;
+}
+
+.style-i {
+    font-size: 55px;
+    color: #ffc74f;
 }
