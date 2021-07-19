@@ -204,3 +204,29 @@ body {
     position: relative;
     z-index: -1;
 }
+
+
+/************************support*****************************/
+
+.box-support {
+    background-image: url(../img/team-bg.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+
+.box-opacity-support {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #262727d4;
+}
+
+.text-p-support {
+    width: 300px;
+    line-height: 1.5;
+}
