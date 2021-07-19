@@ -7,6 +7,10 @@ body {
     background-color: white;
 }
 
+.row {
+    margin: 0;
+}
+
 
 /********************about************************** */
 
@@ -185,4 +189,18 @@ body {
 .style-i {
     font-size: 55px;
     color: #ffc74f;
+}
+
+.div-services-img {
+    background-image: url(../img/counter-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+}
+
+.negative-margin {
+    margin-top: -30px;
+    position: relative;
+    z-index: -1;
 }
