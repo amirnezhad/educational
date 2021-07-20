@@ -211,13 +211,13 @@ body {
 .box-support {
     background-image: url(../img/team-bg.jpg);
     background-repeat: no-repeat;
-    height: 500px;
+    height: 720px;
     background-size: cover;
 }
 
 .box-opacity-support {
     width: 100%;
-    height: 500px;
+    height: 720px;
     position: absolute;
     top: 0;
     right: 0;
@@ -229,4 +229,35 @@ body {
 .text-p-support {
     width: 300px;
     line-height: 1.5;
+}
+
+.box-white {
+    background-color: white;
+    box-shadow: 0 0 7px 0 #9c9a9a;
+    height: 330px;
+}
+
+.style-img-support {
+    height: 260px;
+}
+
+.color-gray {
+    color: #9c9a9a;
+}
+
+.add-support {
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    background-color: #1d1d1d
+}
+
+.size-plus {
+    font-size: 80px;
+}
+
+.position-style {
+    position: absolute;
+    top: 165px;
+    right: 0px;
 }
