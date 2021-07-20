@@ -234,7 +234,7 @@ body {
 .box-white {
     background-color: white;
     box-shadow: 0 0 7px 0 #9c9a9a;
-    height: 330px;
+    height: 345px;
 }
 
 .style-img-support {
@@ -260,4 +260,77 @@ body {
     position: absolute;
     top: 165px;
     right: 0px;
+}
+
+
+/**********************project***********************/
+
+.background-black {
+    background-color: black;
+    width: 100%;
+    height: 172px;
+}
+
+.color-w {
+    color: white;
+}
+
+.img-project {
+    width: 675px;
+    height: 230px;
+}
+
+.style-img-project {
+    width: 100%;
+    height: 100%;
+}
+
+.img-project-size {
+    width: 337px;
+    height: 230px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #f9b931;
+}
+
+.nav-link {
+    height: 45px;
+    display: block;
+    padding: .5rem 1rem;
+    color: #fcfcfc !important;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-link:hover {
+    height: 45px;
+    display: block;
+    padding: .5rem 1rem;
+    color: #f8c963 !important;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.img-project::before,
+.img-project-size::before {
+    content: " ";
+    background: linear-gradient(to top, rgb(3, 3, 3), rgb(3, 3, 3), rgb(136, 136, 136));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: .7;
+    transform: scale(0);
+}
+
+.img-project:hover::before,
+.img-project-size:hover::before {
+    transform: scale(1);
+    transition: all 0.8s;
 }
