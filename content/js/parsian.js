@@ -1,38 +1,41 @@
 $(document).ready(function() {
-
-
-
-    var swiper1 = new Swiper(".swiper-top", {
-
-        pagination: {
-            el: ".swiper-pagination",
-            dynamicBullets: true,
-            clickable: true,
-        },
+    $('.one-time').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
     });
 
-    $("#btnradio1").click(function() {
+    // $(".hero-slider").slick({
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 2100,
+    //     speed: 1000,
+    //     dots: true,
+    //     dotsClass: 'slide-dots',
+    //     arrows: false,
+    //     centerMode: true,
+    //     centerPadding: '0px',
+    // });
 
-        $("#first-btn").show();
-        $("#second-btn").hide();
-        $("#third-btn").hide();
+    // var swiper1 = new Swiper(".swiper-top", {
 
+    //     pagination: {
+    //         el: ".swiper-pagination",
+    //         dynamicBullets: true,
+    //         clickable: true,
+    //     },
+    // });
+
+
+    $('.autoplay').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
     });
-    $("#btnradio2").click(function() {
-
-        $("#first-btn").hide();
-        $("#second-btn").show();
-        $("#third-btn").hide();
-
-    });
-    $("#btnradio3").click(function() {
-
-        $("#first-btn").hide();
-        $("#second-btn").hide();
-        $("#third-btn").show();
-
-    });
-
 
 
 
