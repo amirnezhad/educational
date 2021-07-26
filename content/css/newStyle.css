@@ -142,6 +142,47 @@ body {
 
 /***********************customers*************************/
 
+.customer-section {
+    background-image: url("/content/image/partner-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.customer-section::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+.customer-section .slider {
+    width: 100%;
+    position: relative;
+    direction: ltr;
+}
+
+.customer-section .slider .slide {
+    margin: 10px 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+.customer-section .slider .slide img {
+    width: 100%;
+}
+
+
+/* 
+
 .customers {
     background-image: url(../img/partner-bg.png);
     background-repeat: no-repeat;
@@ -175,7 +216,7 @@ body {
 .img-customers {
     width: 100%;
     height: 100%;
-}
+} */
 
 
 /*******************************services**************************/

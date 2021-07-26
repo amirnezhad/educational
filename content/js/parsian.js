@@ -47,6 +47,41 @@ $(document).ready(function() {
             }
         ]
     });
+    $(".customer-logo-slider").slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1800,
+        speed: 800,
+        dots: false,
+        arrows: false,
+        responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 1800,
+                    speed: 800,
+                    dots: false,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 1800,
+                    speed: 800,
+                    dots: false,
+                    arrows: false,
+                }
+            }
+        ]
+
+    });
 
 
 });
