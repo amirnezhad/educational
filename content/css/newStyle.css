@@ -346,18 +346,18 @@ body {
 
 /***************************customer2**************************/
 
-.Testimonial-box {
+.customers-box {
     text-align: center;
     z-index: 1;
     position: relative;
 }
 
-.Testimonial-box img {
+.customers-box img {
     width: 125px;
     border-radius: 50%;
 }
 
-.Testimonial-box .single-box {
+.single-box {
     position: relative;
     background-color: #ffffff;
     padding: 55px 33px 50px;
@@ -366,46 +366,46 @@ body {
     margin: 10px;
 }
 
-.Testimonial-box .single-box:hover {
+.single-box:hover {
     background-color: #000000;
     box-shadow: 0 0 15px #333333;
     position: relative;
 }
 
-.Testimonial-box .single-box:hover h3 {
+.single-box:hover h3 {
     color: #ffffff;
 }
 
-.Testimonial-box .single-box:hover p {
+.single-box:hover p {
     color: #ffffff;
 }
 
-.Testimonial-box .single-box i {
+.single-box i {
     font-size: 50px;
     color: #ffb923;
 }
 
-.Testimonial-box .single-box h3 {
+.single-box h3 {
     font-size: 18px;
     color: #575757;
     font-weight: 700;
     margin-top: 30px;
 }
 
-.Testimonial-box .single-box h4 {
+.single-box h4 {
     font-size: 14px;
     color: #a5a5a5;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-.Testimonial-box .single-box p {
+.single-box p {
     font-size: 16px;
     color: #575757;
     line-height: 30px;
 }
 
-.Testimonial-box .single-box:before {
+.single-box:before {
     content: "“";
     font-family: sans-serif;
     position: absolute;
@@ -418,7 +418,7 @@ body {
     opacity: 0.3;
 }
 
-.Testimonial-box .slick-slide img {
+.slick-slide img {
     display: inline-block !important;
 }
 
