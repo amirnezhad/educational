@@ -437,3 +437,36 @@ img {
 .more-news {
     color: #f7b338;
 }
+
+
+/*************************footer*****************************/
+
+.box-white-email {
+    background-color: white;
+    box-shadow: 0 0 7px 0 #9c9a9a;
+    height: 150px;
+}
+
+.box-email {}
+
+.style-input-email {
+    height: 40px;
+    width: 100%;
+}
+
+.btn-style-email {
+    background-color: #f7b338;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: white;
+    transition: all 1s;
+    z-index: 2;
+}
+
+.btn-style-email:hover {
+    background-color: black;
+    color: white;
+}
+
+.background-footer {}
