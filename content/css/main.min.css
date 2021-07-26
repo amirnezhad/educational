@@ -162,12 +162,12 @@ body {
     line-height: 3;
     font-size: 11px;
     background-color: transparent;
-    border-bottom: 1px dashed #f37106;
+    border-bottom: 1px dashed #ffb923;
 }
 
 .header .header-top .fa-i {
     line-height: 3;
-    color: #f37106;
+    color: #ffb923;
 }
 
 .header .header-top .header-a {
@@ -181,7 +181,7 @@ body {
 
 .header .header-bootom {
     background-color: transparent;
-    border-bottom: 2px solid #f37106;
+    border-bottom: 2px solid #ffb923;
 }
 
 .header .header-bootom .logo {
@@ -209,12 +209,12 @@ body {
 }
 
 .header .header-bootom .menu-nav .menu-bar .style-li .header-b-a:hover {
-    color: #f37106;
+    color: #ffb923;
 }
 
 .header .header-bootom .btn-header {
     color: white;
-    background-color: #f37106;
+    background-color: #ffb923;
     border: none;
     outline: none;
     height: 35px;
@@ -283,12 +283,12 @@ body {
 }
 
 .text-slider-top .div-p .line {
-    border-top: 1px solid #f37106;
+    border-top: 1px solid #ffb923;
     width: 20px;
 }
 
 .text-slider-top .div-p .style-p {
-    color: #f37106;
+    color: #ffb923;
     font-size: 14px;
 }
 
@@ -297,7 +297,7 @@ body {
 }
 
 .text-slider-top .style-h .style-custom {
-    color: #f37106;
+    color: #ffb923;
 }
 
 .text-slider-top .box-btn {
@@ -311,12 +311,12 @@ body {
     outline: none;
     color: white;
     font-size: 15px;
-    background-color: #f37106;
+    background-color: #ffb923;
     transition: all 1s;
 }
 
 .text-slider-top .box-btn .slider-btn-R:hover {
-    background-color: #ebd729;
+    background-color: #ffb923;
 }
 
 .text-slider-top .box-btn .slider-btn-L {
@@ -346,7 +346,7 @@ body {
 }
 
 .box-about .box-text-about .div-p .line {
-    border-top: 1px solid #f37106;
+    border-top: 1px solid #ffb923;
     width: 20px;
 }
 
@@ -360,7 +360,7 @@ body {
 }
 
 .box-about .box-text-about .style-h .style-custom {
-    color: #f37106;
+    color: #ffb923;
 }
 
 .box-about .box-text-about .text-p {
@@ -391,7 +391,7 @@ body {
 }
 
 .box-about .box-text-about .div-btn .btn-style {
-    background-color: #f7b338;
+    background-color: #ffb923;
     border: none;
     width: 170px;
     height: 40px;
@@ -449,8 +449,8 @@ body {
     position: absolute;
     height: 50%;
     width: 50%;
-    border-bottom: 2px solid #f37106;
-    border-right: 2px solid #f37106;
+    border-bottom: 2px solid #ffb923;
+    border-right: 2px solid #ffb923;
     bottom: 0;
     right: 0;
 }
@@ -476,14 +476,14 @@ body {
     position: absolute;
     height: 50%;
     width: 50%;
-    border-bottom: 2px solid #f37106;
-    border-left: 2px solid #f37106;
+    border-bottom: 2px solid #ffb923;
+    border-left: 2px solid #ffb923;
     bottom: 0;
     left: 0;
 }
 
 .box-card .style-img-card {
-    color: #ff9e50;
+    color: #ffb923;
     font-size: 60px;
     display: flex;
     align-items: center;

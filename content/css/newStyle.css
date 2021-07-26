@@ -73,13 +73,13 @@ body {
 
 .box-txt-do {}
 
+.color-b {
+    color: black;
+}
+
 .text-p-do {
     width: 500px;
     line-height: 1.5;
-}
-
-.box-btn {
-    border-bottom: 1px solid rgb(201, 200, 200);
 }
 
 .style-btn {
