@@ -134,7 +134,7 @@ body {
     height: 45px;
     display: block;
     padding: .5rem 1rem;
-    color: #333435 !important;
+    color: #969696 !important;
     text-decoration: none;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
@@ -375,7 +375,7 @@ body {
     height: 45px;
     display: block;
     padding: .5rem 1rem;
-    color: #0f0f0f !important;
+    color: #7c7b7b !important;
     text-decoration: none;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }

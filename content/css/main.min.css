@@ -198,18 +198,35 @@ body {
     line-height: 4;
 }
 
+.btn-outline-success {
+    color: #ffffff !important;
+    background-color: #f5b62f !important;
+    border: none !important;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: 0.00em !important;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
 .header .header-bootom .menu-nav .menu-bar .style-li {
     font-size: 18px;
 }
 
-.header .header-bootom .menu-nav .menu-bar .style-li .header-b-a {
+.navbar-light .navbar-nav .nav-link {
     text-decoration: none;
-    color: white;
-    font-size: 15px;
+    color: white !important;
+    font-size: 16px !important;
 }
 
-.header .header-bootom .menu-nav .menu-bar .style-li .header-b-a:hover {
-    color: #ffb923;
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffb923 !important;
 }
 
 .header .header-bootom .btn-header {
@@ -368,30 +385,42 @@ body {
 }
 
 .box-about .box-text-about .text-p {
-    width: 400px;
+    width: 350px;
     line-height: 1.5;
+}
+
+.bg-icon-t {
+    background: #d7e7fa;
+}
+
+.bg-icon-b {
+    background: #e7af35;
 }
 
 .box-about .box-text-about .box-services {
     width: 379px;
-    height: 100px;
+    height: 150px;
     background-color: white;
     box-shadow: 0 0 8px 0 #8e8686;
 }
 
 .box-about .box-text-about .box-services .div-services {
-    width: 110px;
+    width: 95px;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .box-about .box-text-about .box-management {
     width: 379px;
-    height: 100px;
+    height: 150px;
     background-color: white;
     box-shadow: 0 0 8px 0 #8e8686;
 }
 
 .box-about .box-text-about .box-management .div-management {
-    width: 136px;
+    width: 115px;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .box-about .box-text-about .div-btn .btn-style {
