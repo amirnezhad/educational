@@ -195,6 +195,10 @@ body {
 
 /*******************************services**************************/
 
+.style-z {
+    z-index: 2;
+}
+
 .w-style {
     width: 100%;
     height: 115px;
@@ -247,6 +251,51 @@ body {
 
 .white-box:hover a {
     color: #fcfafa;
+}
+
+.div-services-img {
+    background-image: url(../img/counter-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    z-index: 0;
+    margin-top: -25px;
+}
+
+.size-num {
+    font-size: 43px;
+}
+
+.style-plus {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: -6px;
+    right: 70px;
+}
+
+.div-circle {
+    position: relative;
+    width: 165px;
+    height: 165px;
+}
+
+.div-circle:hover::before {
+    transform: rotatey( 360deg);
+    transition: all 1s;
+}
+
+.div-circle::before {
+    content: " ";
+    border: 1px dashed gray;
+    border-radius: 100%;
+    position: absolute;
+    top: -24px;
+    left: 0%;
+    right: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
