@@ -47,7 +47,7 @@ $(document).ready(function() {
             }
         ]
     });
-    $(".customer-logo-slider").slick({
+    $(".customer-slider").slick({
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
