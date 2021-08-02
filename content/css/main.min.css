@@ -254,6 +254,28 @@ body {
     direction: rtl;
 }
 
+
+/*************************text write in slider************************/
+
+.js-type-writer {
+    font-size: 19px;
+    font-family: IRANSans;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.js-type-writer>span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
 .text-slider-top {
     position: absolute;
     top: 180px;
